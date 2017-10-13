@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -40px;
+}
+html, body {
+  height: 100%;
+  background: url("../images/bg1.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.heading {
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.animation {
+       -webkit-animation-duration: 1s;
+       -webkit-animation-name: glow;
+       -webkit-animation-direction: alternate;
+       -webkit-animation-iteration-count: infinite;
+       animation-duration: 1s;
+       animation-name: glow;
+       animation-direction: alternate;
+       animation-iteration-count: infinite;
+
+   }
+
+   @-webkit-keyframes glow {
+       from { text-shadow: 0 0 2px blue, 0 0 6px green; }
+       to { text-shadow: -2px 0 14px yellow , 0 0 20px red; }
+   }
+
+.start {
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+}
+#nCountdown{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+#icons {
+  text-align: center;
+
+}
+#icons .fa{
+  color: white;
+  margin-top: 30px;
+  position: relative;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+#icons .twitter:hover {
+  color: #0084b4;
+  bottom: 5px;
+}
+#icons .facebook:hover {
+  color: #3b5998;
+  bottom: 5px;
+}
+#icons .google:hover {
+  color:  #d34836;
+  bottom: 5px;
+}
+#icons .instagram:hover {
+  color:   #fb3958;
+  bottom: 5px;
+}
+
+#form{
+  text-align: center;
+  margin: 20px 10px;
+}
+ #success{
+  text-align: center;
+}
+#success  .text-valid {
+  font-size: 20px;
+  font-family: 'Aladin', cursive;
+  color: #0f0;
+}
+#success .text-invalid {
+  font-size: 20px;
+  font-family: 'Aladin', cursive;
+  color: #d34836;
+}
+#footer, .push {
+
+    height: 40px;
+}
+.footer{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: 'Righteous', cursive;
+
+}
