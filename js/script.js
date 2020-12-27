@@ -1,5 +1,5 @@
 $("document").ready(function() {
-var party = new Date("July 1, 2018 00:00:00").getTime();
+var party = new Date("July 1, 2022 00:00:00").getTime();
 var interval = setInterval(function(){
         var present = new Date().getTime();
         var diff = party - present;

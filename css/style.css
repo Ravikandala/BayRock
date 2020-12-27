@@ -31,7 +31,7 @@ html, body {
 
    }
 
-   @-webkit-keyframes glow {
+   @keyframes glow {
        from { text-shadow: 0 0 2px blue, 0 0 6px green; }
        to { text-shadow: -2px 0 14px yellow , 0 0 20px red; }
    }
@@ -89,7 +89,7 @@ html, body {
 #success  .text-valid {
   font-size: 20px;
   font-family: 'Aladin', cursive;
-  color: #0f0;
+  color: rgb(8, 37, 199);
 }
 #success .text-invalid {
   font-size: 20px;
